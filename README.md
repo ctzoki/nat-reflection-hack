@@ -1,11 +1,12 @@
-NAT Reflection
+## NAT Reflection
+
 If you are running your nodes behind a NAT, i.e. port forwarding from your home router you probably don't have NAT reflection, its the ability to connect to your public IP from within your network, you can install the following tool to help with that 
 
-## Ubuntu
+#### Ubuntu
 
     sudo curl -sSL https://raw.githubusercontent.com/ctzoki/nat-reflection-hack/main/install-nat-reflection-ubuntu.sh | sudo bash
 
-## Usage
+#### Usage
 
 the tool supports 4 commands, add, list, reload, delete, add and delete take in two parameters public ip and private ip, run the add command to enable reflection for an ip
 
